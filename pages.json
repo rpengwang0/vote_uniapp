@@ -1,0 +1,117 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},	
+	
+	"pages": [
+		{
+		    "path" : "pages/index/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor":"#f96770",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50
+		    }
+		},
+		{
+		    "path" : "pages/vote/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "发起投票",
+				"navigationBarBackgroundColor":"#f96770"
+				
+		    }
+		},
+		{
+		    "path" : "pages/vote/show",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "投票活动",
+				"navigationBarTextStyle": "black"
+		    }
+		},
+		{
+		    "path" : "pages/vote/explain",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "活动说明",
+				"navigationBarTextStyle": "black"
+		    }
+		},
+		{
+		    "path" : "pages/vote/leaderboard",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "排行榜",
+				"navigationBarTextStyle": "black"
+		    }
+		},
+		{
+		    "path" : "pages/vote/enroll",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "活动报名",
+				"navigationBarTextStyle": "black"
+		    }
+		},
+		{
+		    "path" : "pages/vote/user",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+				"navigationBarTextStyle": "black"
+		    }
+		},
+		{
+		    "path" : "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		    
+		},
+        {
+        	"path": "pages/index/login",
+        	"style": {
+        		"navigationStyle": "custom"
+        	}
+        },
+		{
+			"path": "pages/crop/crop",
+			"style": {
+				"disableScroll": true,
+				"navigationStyle": "custom"
+			}
+		}
+    ],
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#ff9800",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/image/tabbar/index.png",
+			"selectedIconPath": "static/image/tabbar/_index.png",
+			"text": "首页"
+			}
+		, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/image/tabbar/my.png",
+			"selectedIconPath": "static/image/tabbar/_my.png",
+			"text": "我"
+		} 
+		]
+	},
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "toupiao",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"backgroundTextStyle":"light",
+		"pageOrientation":"portrait"
+	}
+}

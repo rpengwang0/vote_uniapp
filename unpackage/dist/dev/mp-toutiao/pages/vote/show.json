@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "投票活动",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "u-count-down": "/node-modules/uview-ui/components/u-count-down/u-count-down",
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search",
+    "u-lazy-load": "/node-modules/uview-ui/components/u-lazy-load/u-lazy-load",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon"
+  }
+}

@@ -1,0 +1,314 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.container {
+  padding: 30rpx;
+}
+.container .user-avatar {
+  width: 200rpx;
+  height: 200rpx;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.container .user-avatar image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.container .swiper-container {
+  height: 740rpx;
+}
+.container .user-name {
+  text-align: center;
+  color: #f96770;
+  font-size: 36rpx;
+  font-weight: bold;
+  padding: 10rpx 0;
+}
+.container .title {
+  padding: 30rpx 20rpx;
+  text-align: center;
+  color: #909399;
+  letter-spacing: 4px;
+}
+.container .numberBox {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  padding: 30rpx;
+}
+.container .numberBox .number {
+  color: #f96770;
+  font-size: 40rpx;
+  font-weight: bold;
+  padding-bottom: 10rpx;
+}
+.container .numberBox .numberText {
+  color: #909399;
+  font-weight: bold;
+}
+.container .user-desc-title {
+  color: #f96770;
+  text-align: center;
+  padding: 20rpx 0;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.container .user-desc {
+  color: #909399;
+  padding-bottom: 20rpx;
+}
+.container .user-url {
+  padding: 20rpx;
+}
+.container .page-bottom {
+  width: 90%;
+  position: fixed;
+  bottom: 0;
+  left: 5%;
+  right: 0;
+  z-index: 99999;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.container .page-bottom .btn-zhuan, .container .page-bottom .btn-leaderboard, .container .page-bottom .btn-vote {
+  background-color: #f96770;
+  color: #fff;
+  text-align: center;
+  width: 80rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 50%;
+  margin: 20rpx 20rpx 30rpx 20rpx;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.container .page-bottom .btn-vote {
+  background-image: linear-gradient(#f96770, #fc587d);
+  width: 250rpx;
+  border-radius: 50rpx;
+}
+.gift {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+.gift-item {
+  width: 33%;
+  height: 240rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #999;
+}
+.gen {
+  position: relative;
+}
+.gift-item-selected {
+  border: 2rpx solid #ccab69;
+}
+.piaoshu {
+  position: absolute;
+  top: 20rpx;
+  right: 0;
+  background: #888;
+  padding: 4rpx 0 4rpx 16rpx;
+  border-top-left-radius: 50rpx;
+  border-bottom-left-radius: 50rpx;
+  color: #fff;
+  font-weight: bold;
+  font-size: 22rpx;
+}
+.item-img {
+  width: 140rpx;
+}
+.item-img {
+  width: 162rpx;
+  height: 162rpx;
+  margin-bottom: 10rpx;
+}
+.pay-money {
+  border-bottom: 2rpx solid #eee;
+  padding: 24rpx 20rpx;
+  color: #999;
+  margin: 0 20rpx;
+}
+.deal {
+  align-items: center;
+  padding-left: 20rpx;
+  margin-top: 30rpx;
+}
+.gift-btn {
+  background: #ccab69;
+  color: #fff;
+  margin-top: 20rpx;
+  font-size: 30rpx;
+}
+.agree {
+  display: flex;
+  height: 40rpx;
+  margin: 24rpx 0 24rpx 24rpx;
+  font-size: 28rpx;
+  color: #666;
+  position: relative;
+}
+.agree icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.agree .ty {
+  position: absolute;
+  font-size: 26rpx;
+  top: -1rpx;
+  left: 40rpx;
+}
+.gift-item .gift_text {
+  color: #333;
+  font-size: 24rpx;
+}
+.gift-item .gift_text:nth-child(3) {
+  color: #ccc;
+}
+.pay_view {
+  display: flex;
+  justify-content: space-between;
+  height: 120rpx;
+  border-top: 1rpx solid #eee;
+  border-bottom: 1rpx solid #eee;
+  margin: 0 20rpx;
+  align-items: center;
+  padding: 0 20rpx;
+  z-index: 2666;
+}
+.stepper {
+  width: 250rpx;
+  height: 72rpx;
+  border-radius: 3rpx;
+  -webkit-border-radius: 3rpx;
+  background: #fff;
+}
+.stepper .sign {
+  width: 74rpx;
+  line-height: 72rpx;
+  text-align: center;
+  float: left;
+  color: #fff;
+  background: #ccab69;
+  font-size: 40rpx;
+}
+.stepper .number {
+  width: 102rpx;
+  height: 68rpx;
+  float: left;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 28rpx;
+  color: #ccab69;
+  background: #fff;
+  border-top: 2rpx solid #ccab69;
+  border-bottom: 2rpx solid #ccab69;
+}
+.stepper .disabled {
+  color: #ccc;
+}
+.pay-money text {
+  color: #ccab69;
+  font-size: 34rpx;
+  padding-right: 10rpx;
+}
+.gift_top text {
+  padding-left: 15rpx;
+}
+/***开奖结果**/
+.gifModel {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0rpx;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+.gifModel .gif_bg {
+  width: 100%;
+  height: 97vh;
+  margin: 0 33rpx;
+}
+.gifContent {
+  width: 70%;
+  position: absolute;
+  top: 40%;
+}
+.gif_list {
+  max-height: 465rpx;
+}
+.prize_li {
+  display: flex;
+  align-items: center;
+  padding: 0 30rpx;
+}
+.prize_li .prize_img {
+  width: 80rpx;
+  height: 80rpx;
+  flex-shrink: 0;
+  margin-right: 20rpx;
+}
+.prize_li .prize_text {
+  color: #333;
+  font-size: 28rpx;
+}
+.gifModel .prize_btn {
+  width: 350rpx;
+  height: 82rpx;
+  background: #a81800;
+  color: #fdf1a7;
+  font-size: 32rpx;
+  text-align: center;
+  line-height: 82rpx;
+  margin: 30rpx auto 20rpx;
+  border-radius: 8rpx;
+}
+/*********点赞**********/
+.logo {
+  height: 200rpx;
+  width: 200rpx;
+  margin-top: 200rpx;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50rpx;
+}
+.text-area {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-size: 36rpx;
+  color: #8f8f94;
+}
+.dianzan {
+  position: fixed;
+  bottom: 30rpx;
+}
+.like-effect-wrap .like-canvas {
+  z-index: 0 !important;
+}
+

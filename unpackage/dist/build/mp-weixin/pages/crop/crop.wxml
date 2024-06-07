@@ -1,0 +1,1 @@
+<view><gmy-img-cropper class="vue-ref" vue-id="7820da80-1" quality="{{1}}" cropperType="ratio" ratio="{{2.3/1}}" fileType="jpg" imgSrc="{{imgSrc}}" data-ref="gmyImgCropper" data-event-opts="{{[['^getImg',[['getImg']]]]}}" bind:getImg="__e" bind:__l="__l"></gmy-img-cropper></view>

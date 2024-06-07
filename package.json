@@ -1,0 +1,19 @@
+{
+    "id": "hengge-vote1",
+    "name": "投票小程序",
+    "version": "1.4.2",
+    "description": "投票小程序",
+    "keywords": [
+        "投票"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "uni-app前端项目模板"
+        ]
+    },
+    "dependencies": {
+        "jweixin-module": "^1.6.0",
+        "weixin-js-sdk": "^1.6.0"
+    }
+}

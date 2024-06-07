@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.container .steps.data-v-01dea426 {
+  padding: 50rpx 30rpx;
+}
+.container .bg-box.data-v-01dea426 {
+  position: relative;
+}
+.container .bg-box .upload-bg.data-v-01dea426 {
+  display: inline-block;
+  border: 1px dashed #f96770;
+  border-radius: 30rpx;
+  padding: 10rpx;
+  font-size: 25rpx;
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+}
+.container .form-item.data-v-01dea426 {
+  padding: 30rpx;
+}
+.container .form-item .title-text.data-v-01dea426, .container .form-item .desc-text.data-v-01dea426 {
+  padding: 20rpx 0;
+}
+.container .form-item .desc-text.data-v-01dea426 {
+  display: flex;
+  justify-content: space-between;
+}
+.container .page-bottom.data-v-01dea426 {
+  position: fixed;
+  bottom: 15rpx;
+  left: 0;
+  right: 0;
+  z-index: 95;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.container .content.data-v-01dea426 {
+  padding-bottom: 120rpx;
+}
+.container .content-1 .form-item.data-v-01dea426 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .btn-left.data-v-01dea426 {
+  border: 1px solid #f96770;
+  color: #f96770;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 50rpx;
+  flex: 1;
+  margin: 5rpx 20rpx;
+}
+.container .btn-right.data-v-01dea426 {
+  color: #fff;
+  background-image: linear-gradient(#f96770, #fc587d);
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 50rpx;
+  flex: 1;
+  margin: 5rpx 20rpx;
+}
+.container .flex-center.data-v-01dea426 {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.container .img-list.data-v-01dea426 {
+  background-color: #fff;
+  padding: 20rpx;
+}
+.container .img-list .img-item.data-v-01dea426 {
+  border-radius: 15rpx;
+  border: 1px solid #eee;
+  margin: 10rpx;
+}
+.container .img-list .p-20.data-v-01dea426 {
+  padding: 20rpx;
+}
+.container .img-list .p-t-20.data-v-01dea426 {
+  padding-top: 20rpx;
+}
+.container .img-list .p-b-20.data-v-01dea426 {
+  padding-bottom: 20rpx;
+}
+.container .img-list .position-r.data-v-01dea426 {
+  position: relative;
+}
+.container .img-list .position-a.data-v-01dea426 {
+  position: absolute;
+  right: -20rpx;
+  top: -20rpx;
+}
+

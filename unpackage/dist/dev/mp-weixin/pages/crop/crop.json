@@ -1,0 +1,7 @@
+{
+  "disableScroll": true,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "gmy-img-cropper": "/components/gmy-img-cropper/gmy-img-cropper"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="like-effect-wrap"><canvas class="like-canvas" style="{{('width:'+heartWidth+'px;height:'+heartHeight+'px;')}}" type="2d" id="heartsCanvas"></canvas><view hidden="{{!(showCanvas)}}"><view class="like-gif" style="{{('background-image: url('+bg+');')}}"></view><view class="like-num">{{"+"+count+text}}</view></view></view>

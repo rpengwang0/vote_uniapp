@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "投票活动",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "show-u-waterfall-left": "/pages/vote/show-u-waterfall-left",
+    "show-u-waterfall-right": "/pages/vote/show-u-waterfall-right",
+    "u-count-down": "/node-modules/uview-ui/components/u-count-down/u-count-down",
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search",
+    "u-waterfall": "/node-modules/uview-ui/components/u-waterfall/u-waterfall",
+    "u-lazy-load": "/node-modules/uview-ui/components/u-lazy-load/u-lazy-load",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon"
+  }
+}

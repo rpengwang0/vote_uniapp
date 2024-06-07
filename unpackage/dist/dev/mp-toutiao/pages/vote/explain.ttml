@@ -1,0 +1,1 @@
+<view class="container"><view class="item"><view class="title"><text>活动介绍</text></view><view class="li"><rich-text nodes="{{data.activity_rule_content}}"></rich-text></view></view></view>

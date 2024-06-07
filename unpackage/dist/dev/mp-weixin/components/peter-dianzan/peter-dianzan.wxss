@@ -1,0 +1,42 @@
+
+.like-effect-wrap {
+		/* z-index: -1; */
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+}
+.like-effect-wrap .like-canvas {
+		position: fixed;
+		left: 0;
+		right: 0;
+		bottom: 96rpx;
+		margin: 0 auto;
+		z-index: 100;
+}
+.like-effect-wrap .like-gif {
+		position: absolute;
+		right: 0;
+		margin: auto;
+		bottom: 96rpx;
+		width: 140rpx;
+		height: 140rpx;
+		background-position: 50%;
+		background-size: cover;
+}
+.like-effect-wrap .like-num {
+		position: absolute;
+		bottom: 110rpx;
+		right: 100rpx;
+		text-align: right;
+		font-size: 60rpx;
+		line-height: 120rpx;
+		padding-right: 40rpx;
+		font-style: italic;
+		font-weight: 700;
+		background: linear-gradient(180deg,#f4d909,#f9595c 80%);
+		color: transparent;
+		-webkit-background-clip: text;
+}
+
